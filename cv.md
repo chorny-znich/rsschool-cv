@@ -24,3 +24,8 @@
 		assert(iter.second);
 	}
 ```
+
+## Education
+
+- Brest State A. Pushkin University
+  - Physics and computer science
