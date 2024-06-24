@@ -36,3 +36,7 @@
   - Specialization "C++ Development Basics"
 - RSSchool
   - JavaScript/Front-end
+
+## Language
+
+- English: level - A2
