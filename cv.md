@@ -29,3 +29,10 @@
 
 - Brest State A. Pushkin University
   - Physics and computer science
+
+## Courses
+
+- Coursera
+  - Specialization "C++ Development Basics"
+- RSSchool
+  - JavaScript/Front-end
