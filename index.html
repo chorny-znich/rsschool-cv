@@ -58,6 +58,17 @@
           <li>JavaScript</li>
         </ul>
       </section>
+      <section id="code" class="section">
+        <h2>Code</h2>
+        <pre>
+  template &lt;typename Id, typename Asset&gt;
+  Asset& AssetManager&lt;Id, Asset&gt;::get(Id id) {
+  auto iter = mAssets.find(id); 
+  assert(iter != mAssets.end());
+  return *iter->second;
+  }
+        </pre>
+      </section>
     </div>
   </main>
   <footer>
