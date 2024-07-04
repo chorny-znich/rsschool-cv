@@ -1,0 +1,21 @@
+* {
+  scroll-behavior: smooth;
+}
+.wrapper {
+  max-width: 1440px;
+  margin: 0px auto;
+}
+section {
+  padding-left: 20px;
+}
+.link {
+  text-decoration: none;
+  color: #ffde91;
+  transition: 1s;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.bold-text {
+  font-weight: bold;
+}
