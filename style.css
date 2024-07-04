@@ -40,3 +40,27 @@ section {
 .nav-link:hover {
   text-decoration: underline;
 }
+/* profile */
+.main-content {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  background-color: #fffaed;
+}
+.profile {
+  display: flex;
+  justify-content: space-around;
+}
+.profile__photo {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  padding: 20px;
+}
+.profile__photo-content {
+  border-radius: 10px;
+  box-shadow: #aaa 2px 3px;
+}
+.profile__info {
+  width: 60%;
+  padding: 0 50px 0 20px;
+}
