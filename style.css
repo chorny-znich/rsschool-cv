@@ -72,3 +72,13 @@ section {
 .contacts__list:hover {
   text-decoration: underline;
 }
+/* Footer */
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #000;
+}
+.footer-content__author {
+  color: #ffde91;
+}
