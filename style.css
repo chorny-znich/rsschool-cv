@@ -19,3 +19,24 @@ section {
 .bold-text {
   font-weight: bold;
 }
+/* Header */
+.header-content {
+  background: #000;
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.nav-link {
+  margin: 0 20px;
+  font-size: 1.25rem;
+  line-height: 50px;
+  text-decoration: none;
+  color: #ffde91;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
