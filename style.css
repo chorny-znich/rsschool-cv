@@ -1,6 +1,7 @@
 * {
   scroll-behavior: smooth;
   box-sizing: border-box;
+  font-family: Ubuntu, sans-serif;
 }
 .wrapper {
   max-width: 1024px;
@@ -20,6 +21,7 @@ section {
 .bold-text {
   font-weight: bold;
 }
+
 /* Header */
 .header-content {
   background: #000;
