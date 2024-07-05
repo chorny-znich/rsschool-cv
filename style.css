@@ -1,5 +1,6 @@
 * {
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 .wrapper {
   max-width: 1024px;
@@ -22,6 +23,7 @@ section {
 /* Header */
 .header-content {
   background: #000;
+  border-radius: 15px 100px 0 0;
 }
 .nav-list {
   display: flex;
@@ -78,6 +80,7 @@ section {
   justify-content: space-around;
   align-items: center;
   background: #000;
+  border-radius: 0 15px 0 50px;
 }
 .footer-content__author {
   color: #ffde91;
