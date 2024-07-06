@@ -21,7 +21,6 @@ section {
 .bold-text {
   font-weight: bold;
 }
-
 /* Header */
 .header-content {
   background: #000;
@@ -101,6 +100,14 @@ section {
 }
 .contacts__list:hover {
   text-decoration: underline;
+}
+/* Projects section */
+.projects__list {
+  display: flex;
+}
+.projects__link {
+  color: #000;
+  text-decoration: none;
 }
 /* Footer */
 .footer-content {
