@@ -109,6 +109,11 @@ section {
   color: #000;
   text-decoration: none;
 }
+/* Language section */
+.language__text {
+  margin-bottom: 0;
+  padding-bottom: 30px;
+}
 /* Footer */
 .footer-content {
   display: flex;
