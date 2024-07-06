@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="wrapper">
+      <div class="header-content">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
+          </ul>
+        </nav>
+      </div>  
+    </div>     
+  </header>
+  <main class="main">
+    <div class="wrapper main-content">
+      <section class="profile">
+        <div class="profile__photo">
+          <img src="assets/img/vargar.png" alt="Profile photo" class="profile__photo-content">
+        </div>
+        <div class="profile__info">
+          <h1 class="profile-title">Dzmitry Tarhonski</h1>
+          <p>I worked for more than 15 years at a government enterprise. My duties ranged from a local 
+            network administration and maintaining computers to maintaining a website and writing software. Now I would 
+            like to focus on what I enjoy the most - programming. I have some experience in c++ programming. 
+            Now I want to add JavaScript to my list of skills.
+          </p>
+        </div>
+      </section>
+      <section id="contacts" class="section">
+        <h2>Contacts</h2>
+        <ul>
+          <li><span class="bold-text">E-mail:</span> <a href="mailto:vargar.dt@gmail.com" class="contacts__list">vargar.dt@gmail.com</a></li>
+          <li><span class="bold-text">Discord:</span> Дмитрий(chorny-znich)#5579</li>
+          <li><span class="bold-text">LinkedIn:</span> <a href="https://www.linkedin.com/in/vargar82" class="contacts__list">linkedin.com/in/vargar82</a></li>
+          <li><span class="bold-text">GitHub:</span> <a href="https://github.com/chorny-znich" class="contacts__list">chorny-znich</a></li>
+        </ul>   
+      </section>
+      <section id="skills" class="section">
+        <h2>Skills</h2>
+        <ul>
+          <li>C++</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </section>
+      <section id="code" class="section">
+        <h2>Code</h2>
+        <pre>
+  template &lt;typename Id, typename Asset&gt;
+  Asset& AssetManager&lt;Id, Asset&gt;::get(Id id) {
+  auto iter = mAssets.find(id); 
+  assert(iter != mAssets.end());
+  return *iter->second;
+  }
+        </pre>
+      </section>
+      <section id="courses" class="section">
+        <h2>Courses</h2>
+        <ul>
+          <li>Coursera
+            <ul>
+              <li>Specialization "C++ Development Basics"</li>  
+              <li>Specialization "C++ Programming for Unreal Game Development"</li>
+              <li>Specialization "Google IT Support"</li>
+            </ul>
+          </li>
+          <li>RSSchool
+            <ul>
+              <li>JavaScript/Front-end</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="projects__list">
+          <figure>
+            <a href="https://rolling-scopes-school.github.io/chorny-znich-JSFE2022Q3/gem_puzzle/">
+              <img src="./assets/img/gem_puzzle.jpg" alt="Gem puzzle screenshot">
+            </a>
+            <figcaption>
+              <a href="https://rolling-scopes-school.github.io/chorny-znich-JSFE2022Q3/gem_puzzle/" 
+                class="projects__link">Gem puzzle</a>
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="https://rolling-scopes-school.github.io/chorny-znich-JSFE2022Q3/songbird/">
+              <img src="./assets/img/bard_quiz.jpg" alt="Bard quiz screenshot">
+            </a>
+            <figcaption>
+              <a href="https://rolling-scopes-school.github.io/chorny-znich-JSFE2022Q3/songbird/" 
+              class="projects__link">Bard Quiz</a>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section id="education" class="section">
+        <h2>Education</h2>
+        <p>Brest State A. Pushkin University</p>
+      </section>
+      <section id="language" class="section" >
+        <h2>Language</h2>
+        <p class="language__text">
+            English: level &#8212; A2
+        </p>
+    </section>
+    </div>
+  </main>
+  <footer>
+    <div class="wrapper">
+      <div class="footer-content">
+        <a href="https://rs.school/courses/javascript-ru"><img src="assets/img/rs_school_js.png" alt="RSShool logo"></a>
+        <div class="footer-content__author">
+          &copy;2024, <a href="https://github.com/chorny-znich" class="link">chorny-znich</a>
+        </div>
+      </div> 
+    </div>     
+</footer>
+</body>
+</html>

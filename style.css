@@ -1,0 +1,142 @@
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: Ubuntu, sans-serif;
+}
+.wrapper {
+  max-width: 1024px;
+  margin: 0px auto;
+}
+section {
+  padding-left: 50px;
+}
+.link {
+  text-decoration: none;
+  color: #ffde91;
+  transition: 1s;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.bold-text {
+  font-weight: bold;
+}
+/* Header */
+.header-content {
+  background: #000;
+  height: 50px;
+  border-radius: 15px 100px 0 0;
+}
+.nav {
+  height: 100%;
+}
+.nav-list {
+  height: 100%;
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.nav-item {
+  margin: 0 20px;
+}
+.nav-link {
+  display: block;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: #fffaed;
+  
+  position: relative;
+  padding: 0.2em 0;
+  overflow: hidden;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: #fffaed;
+  opacity: 1;
+  transform: translate3d(-100%, 0, 0);
+}
+.nav-link:hover::after,
+.nav-link:focus::after{
+  transform: translate3d(0, 0, 0);
+}
+/* profile */
+.main-content {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  background-color: #fffaed;
+}
+.profile {
+  display: flex;
+  justify-content: space-around;
+}
+.profile__photo {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  padding: 20px;
+}
+.profile__photo-content {
+  border-radius: 10px;
+  box-shadow: #aaa 2px 3px;
+}
+.profile__info {
+  width: 60%;
+  padding: 0 50px 0 20px;
+}
+/* Contacts */
+.contacts__list {
+  text-decoration: none;
+  color: #000;
+}
+.contacts__list:hover {
+  text-decoration: underline;
+}
+/* Projects section */
+.projects__list {
+  display: flex;
+}
+.projects__link {
+  color: #000;
+  text-decoration: none;
+}
+/* Language section */
+.language__text {
+  margin-bottom: 0;
+  padding-bottom: 30px;
+}
+/* Footer */
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #000;
+  border-radius: 0 15px 0 50px;
+}
+.footer-content__author {
+  color: #ffde91;
+}
+/* Link animation */
+a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}
+.nav-link:hover::after,
+a:focus::after{
+  transform: translate3d(0, 0, 0);
+}
